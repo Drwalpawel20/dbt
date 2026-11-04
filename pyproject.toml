@@ -1,0 +1,20 @@
+[project]
+name = "dbtsnowflake"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Paweł Drwal", email = "drwalpawel20@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dbt-core>=1.12.6",
+    "dbt-snowflake>=1.12.5",
+]
+
+[project.scripts]
+dbtsnowflake = "dbtsnowflake:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

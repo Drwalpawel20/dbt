@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="dbt test" type="dbt" factoryName="dbt" showConsoleOnMinimize="0" singleton="false">
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <option name="SDK_HOME" value="" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S3_DBT_SNOWFLAKE" />
+    <option name="IS_MODULE_SDK" value="true" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <option name="SCRIPT_NAME" value="test" />
+    <option name="COMMAND_LINE_VALUE" value="test" />
+    <option name="ARGS" value="" />
+    <method v="2" />
+  </configuration>
+</component>

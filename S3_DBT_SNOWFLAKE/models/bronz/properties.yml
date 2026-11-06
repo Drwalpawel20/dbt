@@ -1,0 +1,11 @@
+models:
+  - name: bronz_bokings
+    config:
+      materialized: table
+  - name: bronz_host
+    config:
+      materialized: table
+  - name: bronz_listings
+    config:
+      materialized: table
+
